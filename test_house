@@ -1,0 +1,243 @@
+{
+    "cls": "House",
+    "rooms": [
+        {
+            "cls": "LivingRoom",
+            "entrances": [
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": true,
+                    "length": 20,
+                    "width": 3,
+                    "x": 10,
+                    "y": 50
+                },
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": true,
+                    "length": 20,
+                    "width": 3,
+                    "x": 70,
+                    "y": 50
+                },
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": false,
+                    "length": 3,
+                    "width": 6,
+                    "x": 100,
+                    "y": 23
+                }
+            ],
+            "furnitures": [
+                {
+                    "cls": "Table",
+                    "density": 0.5,
+                    "height": 10,
+                    "leg_width": 3,
+                    "length": 10,
+                    "tabletop_height": 3,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "cls": "Chair",
+                    "density": 0.5,
+                    "height": 7,
+                    "leg_width": 1,
+                    "length": 5,
+                    "seat_height": 1,
+                    "width": 5,
+                    "x": 10,
+                    "y": 15
+                },
+                {
+                    "cls": "Bed",
+                    "density": 0.5,
+                    "height": 15,
+                    "length": 20,
+                    "made": false,
+                    "width": 45,
+                    "x": 65,
+                    "y": 0
+                },
+                {
+                    "clothes_weight": 50,
+                    "cls": "Wardrobe",
+                    "density": 0.5,
+                    "height": 35,
+                    "length": 15,
+                    "width": 25,
+                    "x": 75,
+                    "y": 35
+                }
+            ],
+            "heating": [
+                {
+                    "cls": "Fireplace",
+                    "consumption": 10,
+                    "heating_space": 250000,
+                    "resource": {
+                        "cls": "Resource",
+                        "cost": 100,
+                        "name": "wood"
+                    },
+                    "time": 5
+                },
+                {
+                    "cls": "ElectricHeater",
+                    "consumption": 220,
+                    "heating_space": 250000,
+                    "resource": {
+                        "cls": "Resource",
+                        "cost": 100,
+                        "name": "electricity"
+                    },
+                    "turned_on": true
+                }
+            ],
+            "height": 50,
+            "length": 50,
+            "people_count": 1,
+            "width": 100
+        },
+        {
+            "cls": "Room",
+            "entrances": [
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": false,
+                    "length": 3,
+                    "width": 6,
+                    "x": 0,
+                    "y": 13
+                },
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": false,
+                    "length": 3,
+                    "width": 6,
+                    "x": 50,
+                    "y": 13
+                }
+            ],
+            "furnitures": [
+                {
+                    "cls": "WashingMachine",
+                    "density": 0.5,
+                    "height": 20,
+                    "kw_per_hour": 100,
+                    "length": 20,
+                    "turned_on": false,
+                    "width": 20,
+                    "x": 10,
+                    "y": 0
+                }
+            ],
+            "heating": [
+                {
+                    "cls": "ElectricHeater",
+                    "consumption": 220,
+                    "heating_space": 250000,
+                    "resource": {
+                        "cls": "Resource",
+                        "cost": 100,
+                        "name": "electricity"
+                    },
+                    "turned_on": true
+                }
+            ],
+            "height": 50,
+            "length": 50,
+            "width": 30
+        },
+        {
+            "cls": "Room",
+            "entrances": [
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": false,
+                    "length": 3,
+                    "width": 6,
+                    "x": 0,
+                    "y": 23
+                },
+                {
+                    "cls": "Entrance",
+                    "height": 40,
+                    "is_open": false,
+                    "is_window": true,
+                    "length": 30,
+                    "width": 3,
+                    "x": 10,
+                    "y": 50
+                }
+            ],
+            "furnitures": [
+                {
+                    "cls": "Refrigerator",
+                    "cur_temperature": -30,
+                    "density": 0.5,
+                    "height": 35,
+                    "kw_per_hour": 100,
+                    "length": 20,
+                    "turned_on": false,
+                    "width": 20,
+                    "x": 30,
+                    "y": 0
+                },
+                {
+                    "cls": "Table",
+                    "density": 0.5,
+                    "height": 10,
+                    "leg_width": 3,
+                    "length": 10,
+                    "tabletop_height": 3,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "cls": "Chair",
+                    "density": 0.5,
+                    "height": 7,
+                    "leg_width": 1,
+                    "length": 5,
+                    "seat_height": 1,
+                    "width": 5,
+                    "x": 10,
+                    "y": 15
+                }
+            ],
+            "heating": [
+                {
+                    "cls": "ElectricHeater",
+                    "consumption": 220,
+                    "heating_space": 250000,
+                    "resource": {
+                        "cls": "Resource",
+                        "cost": 100,
+                        "name": "electricity"
+                    },
+                    "turned_on": true
+                }
+            ],
+            "height": 50,
+            "length": 50,
+            "width": 50
+        }
+    ]
+}
